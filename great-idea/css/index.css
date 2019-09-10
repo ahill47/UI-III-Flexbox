@@ -64,160 +64,112 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-.thebody{
-	width:1000px;
+.container{
+	width:910px;
 	margin:auto;
+	
 }
-header nav{
 
-margin-top:35px;
+header nav{
+	
+	margin-top:35px;
 
 }
 header nav a{
-
-margin: 0 20px;
-color:grey;
-
+	
+	margin: 0 20px;
+	color:grey;
+	
 }
 header nav a:link{
-text-decoration:none;
+	text-decoration:none;
 }
 header{
-display:flex;
-
-margin-top:20px;
+	display:flex;
 }
 .logo{
-margin-left:80px;
+	margin-left:80px;
 }
-.services-header-img
-{
-margin-top:30px;
-margin-left:50px;
-}
-.firstsection{
-
-margin-top:20px;
-
-}
-.firstsection h3{
-font-size:25px;
-}
-.firstsection p{
-margin-top:15px;
-font-size:18px;
-}
-.main{
-border-top: 1px solid black;
-border-bottom:1px solid black;
-margin:20px;
-}
-.main .boxone {
-
-display:flex;
-}
-.main .boxone .first{
-border:1px solid black;
-background-color:whitesmoke;
-margin:15px;
-padding:25px;
-height:250px;	
-}
-.main .boxone .second{
-border:1px solid black;
-background-color: whitesmoke;
-margin:15px;
-padding:25px;
-height:250px;	
-}
-.main .boxone .first button{
-margin-top:15px;
-background:white;
-border: 1px solid black;
-padding: 10px 42px;
-
-}
-.main .boxone .second button{
-margin-top:15px;
-background:white;
-border: 1px solid black;
-padding: 10px 42px;
-
-}
-.main .boxtwo{
-
-display:flex;
-}
-.main .boxtwo .three{
-	border:1px solid black;
-	background-color:whitesmoke;
-	margin:15px;
-	padding:25px;
-	height:250px;	
-}
-.main .boxtwo .fourth{
-	border:1px solid black;
-	background-color:whitesmoke;
-	margin:15px;
-	padding:25px;
-	height:250px;
-}
-.main .boxtwo .three button{
-margin-top:15px;
-background:white;
-border: 1px solid black;
-padding: 10px 42px;
-
-}
-.main .boxtwo .fourth button{
-margin-top:15px;
-background:white;
-border: 1px solid black;
-padding: 10px 42px;
-
-}
-.main .boxthree{
-display:flex;
-}
-.main .boxthree .fifth{
-border:1px solid black;
-background-color:whitesmoke;
-margin:15px;
-padding:25px;
-height:250px;	
-}
-.main .boxthree .sixth{
-border:1px solid black;
-background-color:whitesmoke;
-margin:15px;
-padding:25px;
-height:250px;
-}
-.main .boxthree .fifth button{
-margin-top:15px;
-background:white;
-border: 1px solid black;
-padding: 10px 42px;
-
-}
-.main .boxthree .sixth button{
-	margin-top:15px;
-	background:white;
-	border: 1px solid black;
-	padding: 10px 42px;
-}
-footer{
-		display:flex;
-}
-footer .footerSection p{
-	height: 100px;
-	width: 500px;
-}
-footer .footerSection .a {
-	list-style-type: square;
-	margin: 15px;	
-}
-#copyright{
-	margin:80px;
+h1{
+	font-size: 90px;
 	text-align: center;
 }
+.body{
+	
+	display:flex;
+	flex-flow: row wrap;
+	margin-bottom:95px;
+	padding:30px;
+	
+}
+.body h1{
+	margin-left:30px;
+	margin-top:95px;
+
+	
+}
+img{
+	margin-top:40px;
+	margin-left:30px;
+}
+button{
+	padding: 10px 42px;
+	background:white;
+	border: 1px solid black;
+	margin-left:140px;
+
+}
+.main{
+	position: relative;
+	border-top: 1px solid black;
+	
+	margin-bottom:10px;
+	
+}
+
+.main .blocks{
+	display:flex;
+}
+
+.main .blocks .above{
+	
+	width: 900px;
+	margin:10px;
+	padding:20px;		
+}
+
+.main2 .blocks{
+	display:flex;
+
+}
+
+.main2 .blocks .below{
+	
+	width:280px;
+	height: 35px;
+	margin:10px;
+	padding:20px;
+	
+		
+}
+
+
+ .main .middle-img{
+	
+	
+	margin: 0 auto 0 auto;
+	
+	
+}
+footer {
+	border-top:1px solid black;
+	margin:140px;
+	padding: 25px 0px 0px 0px; 
+	
+}
+
+#copyright {
+	text-align: center;
+	padding: 35px;
+}
+
