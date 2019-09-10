@@ -64,3 +64,112 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container{
+	width:910px;
+	margin:auto;
+	
+}
+
+header nav{
+	
+	margin-top:35px;
+
+}
+header nav a{
+	
+	margin: 0 20px;
+	color:grey;
+	
+}
+header nav a:link{
+	text-decoration:none;
+}
+header{
+	display:flex;
+}
+.logo{
+	margin-left:80px;
+}
+h1{
+	font-size: 90px;
+	text-align: center;
+}
+.body{
+	
+	display:flex;
+	flex-flow: row wrap;
+	margin-bottom:95px;
+	padding:30px;
+	
+}
+.body h1{
+	margin-left:30px;
+	margin-top:95px;
+
+	
+}
+img{
+	margin-top:40px;
+	margin-left:30px;
+}
+button{
+	padding: 10px 42px;
+	background:white;
+	border: 1px solid black;
+	margin-left:140px;
+
+}
+.main{
+	position: relative;
+	border-top: 1px solid black;
+	
+	margin-bottom:10px;
+	
+}
+
+.main .blocks{
+	display:flex;
+}
+
+.main .blocks .above{
+	
+	width: 900px;
+	margin:10px;
+	padding:20px;		
+}
+
+.main2 .blocks{
+	display:flex;
+
+}
+
+.main2 .blocks .below{
+	
+	width:280px;
+	height: 35px;
+	margin:10px;
+	padding:20px;
+	
+		
+}
+
+
+ .main .middle-img{
+	
+	
+	margin: 0 auto 0 auto;
+	
+	
+}
+footer {
+	border-top:1px solid black;
+	margin:140px;
+	padding: 25px 0px 0px 0px; 
+	
+}
+
+#copyright {
+	text-align: center;
+	padding: 35px;
+}
+
